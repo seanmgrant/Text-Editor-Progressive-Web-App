@@ -4,7 +4,7 @@ const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
 
 
-// TODO: Add CSS loaders and babel to webpack.
+// TODO: Add CSS loaders and babel to webpack. DID
 
 module.exports = () => {
   return {
