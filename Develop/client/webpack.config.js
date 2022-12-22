@@ -20,8 +20,8 @@ module.exports = () => {
     //Add and configure workbox plugins for a service worker and manifest file.  
     plugins: [
       new HtmlWebpackPlugin({
-        template: './src/index.html',
-        title: 'Progressive Web App',
+        template: './index.html',
+        title: 'Just Another Text Editor',
       }),
       // Service worker injection
       new InjectManifest({
