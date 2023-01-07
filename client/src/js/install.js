@@ -24,4 +24,3 @@ window.addEventListener('appinstalled', (event) => {
     window.deferredPrompt = null;
 });
 
-//NEED TO ADD COMMENTS
