@@ -1,5 +1,4 @@
-// const { offlineFallback, warmStrategyCache } = require('workbox-recipes');
-// const { CacheFirst } = require('workbox-strategies');
+// This file is used by workbox to generate the service worker
 const { warmStrategyCache } = require('workbox-recipes');
 const { CacheFirst, StaleWhileRevalidate } = require('workbox-strategies');
 const { registerRoute } = require('workbox-routing');
