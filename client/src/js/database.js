@@ -31,10 +31,10 @@ export const getDb = async () => {
   const jatebd = await openDB('jate', 1);
   const tx = jatebd.transaction('jate', 'readonly');
   const store = tx.objectStore('jate');
-  const request = store.getall();
+  const request = store.get(1);
   const result = await request;
   console.log('result.value', result);
-  return result;
+  return result?.jate;
 };
 
 
